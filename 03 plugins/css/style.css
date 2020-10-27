@@ -1,0 +1,46 @@
+#letter span {
+  position: relative;
+}
+
+.char1 {
+  top: 5px;
+  left: 10px;
+}
+.char2 {
+  top: 0px;
+  right: 5px;
+}
+
+#gallery img {
+  width: 100px;
+  height: 100px;
+}
+
+#navigation a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 2px 0;
+  background: grey;
+  color: #fff;
+  padding: 10px 0;
+}
+
+#menu-mobile div {
+  background: green;
+  width: 50px;
+  height: 5px;
+  margin: 6px 0;
+}
+#menu-mobile div:first-of-type {
+  margin-top: 0;
+}
+#menu-mobile div:last-of-type {
+  margin-bottom: 0;
+}
+#menu-mobile {
+  display: inline-block;
+  border: 2px solid red;
+  cursor: pointer;
+}
